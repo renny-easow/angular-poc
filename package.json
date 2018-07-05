@@ -1,0 +1,40 @@
+{
+  "name": "angular-poc",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --progress",
+    "build_prod": "webpack -p",
+    "start": "webpack-dev-server  --progress",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/compiler": "^4.0.1",
+    "@angular/compiler-cli": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/forms": "^4.0.1",
+    "@angular/http": "^4.0.1",
+    "@angular/platform-browser": "^4.0.1",
+    "@angular/platform-browser-dynamic": "^4.0.1",
+    "@angular/platform-server": "^4.0.1",
+    "@angular/router": "^4.0.1",
+    "core-js": "^2.4.1",
+    "ie-shim": "^0.1.0",
+    "ng2-pdf-viewer": "^5.1.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.0",
+    "uglify-js-plugin": "0.0.6",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  }
+}

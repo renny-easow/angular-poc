@@ -1,0 +1,15 @@
+.side-nav {
+	float: left;
+	width: 15vw;
+	height: 100vh;
+	background-color: #fff;
+	box-shadow: 4px 0 4px #ddd;
+}
+
+li {
+	cursor: pointer;
+}
+
+.contents {
+	padding-top: 5vh;
+}
