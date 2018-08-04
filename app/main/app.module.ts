@@ -5,10 +5,12 @@ import { PdfViewerModule }        from 'ng2-pdf-viewer';
 
 // Declarations
 import { AppComponent }           from './app.component';
-import { PrintDemoComponent }        from './../print/print-demo.component';
-import { PrintPageComponent }        from './../print/print-page.component';
-import { PdfPocComponent }        from './../pdf-poc/pdf-poc.component';
 import { routing }                from './app.routes';
+import { MessageService }         from './../services/message-service';
+
+import { PrintDemoComponent }     from './../print/print-demo.component';
+import { PrintPageComponent }     from './../print/print-page.component';
+import { PdfPocComponent }        from './../pdf-poc/pdf-poc.component';
 
 @NgModule({
     imports: [
@@ -22,7 +24,7 @@ import { routing }                from './app.routes';
         PrintPageComponent,
         PdfPocComponent
     ],
-    providers: [],
+    providers: [MessageService],
     bootstrap: [ AppComponent ]
 })
 export class AppModule {
